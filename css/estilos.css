@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;400;500;700;900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.73), rgba(22, 22, 22, 0.315) ), url("../assets/img/ba1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.headerNav {
+    /*background-color: blue;*/
+    display: flex;
+    height: 15%;
+    width: 100%;
+}
+
+.navegacion {
+    /*background-color: aquamarine;*/
+    /*flex-grow: 1;*/
+    width: 70%;
+}
+
+.listaNav {
+    /*background-color: rgb(73, 226, 43);*/
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listaNav li {
+    width: 35%;
+    list-style: none;
+    font-size: 0.5rem;
+    box-shadow: inset 0 -7px 10px -10px #ccb8b8;
+    padding: 0.3rem;
+    text-align: center;
+}
+
+.linkNav {
+    text-decoration: none;
+    color: white;
+}
+
+.contenedorLogo h2{
+    display: none;
+}
+
+.contenedorLogo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedorLogo a {
+    width: 50%;
+}
+
+.contenedorLogo img {
+    width: 100%;
+}
+
+.laConferencia {
+    height: 85%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.contenidoConferencia {
+    width: 90%;
+    height: 42%;
+}
+
+.contenidoConferencia h1 {
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+
+.parrafoConferencia{
+    color: white;
+    text-align: right;
+    font-weight: 400;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.buttonsContainer {
+    display: flex;
+    justify-content: end;
+}
+
+.buttonOrador {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.buttonTicket {
+    background-color: rgb(41, 167, 67);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 0.5rem 0.7rem;
+}
+
+
+.prueba {
+    width: 100vw;
+    height: 100vh;
+    background-color: aqua;
+}
