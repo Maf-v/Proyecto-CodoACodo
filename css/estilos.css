@@ -140,3 +140,238 @@
 
 
 /* Section Oradores */
+.sectionOradores{
+    height: 100vh;
+    margin-bottom: 2rem;
+}
+
+.tituloOradores{
+    text-align: center;
+    color: rgb(34, 37, 41);
+}
+
+.tituloOradores span {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 500;
+}
+
+.padreCards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90%;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.card{
+    height: 30%;
+    border: 1px solid rgb(227, 227, 227);
+    margin-left:15px;
+    border-radius: 5px;
+    text-align: left;
+    display: flex;
+}
+
+.card img{
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.cardBody{
+    width: 60%;
+    padding:10px;
+}
+
+.topicsContainer {
+    display: flex;
+    margin-bottom: 0.3rem;
+}
+
+.topic {
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+    padding: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.javascript {
+    background-color: rgb(253, 192, 6);
+}
+
+.react {
+    background-color: rgb(19, 165, 180);
+    color: white;
+}
+
+.negocios {
+    background-color: rgb(106, 114, 123);
+    color: white;
+}
+
+.startups {
+    background-color: rgb(217, 49, 67);
+    color: white;
+}
+
+.cardBody p {
+    font-family: 'Calibri', sans-serif;
+    color: rgb(63, 68, 75);
+    font-size: 0.6rem;
+    font-weight: 400;
+}
+
+/* Section con imagen y Bs - Octubre */
+.lugarFecha{
+    height: 35vh;
+    font-family: 'Calibri', sans-serif;
+}
+
+.right{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(53, 58, 64);
+    color:white;
+}
+
+.rightContent {
+    /*background-color: aquamarine;*/
+    width: 90%;
+    height: 62%;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+
+.right h2 {
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+}
+
+.right p {
+    font-size: 0.7rem;
+    font-weight: 300;
+    letter-spacing: 0.03rem;
+    text-align: start;
+    margin-bottom: 1.5rem;
+}
+
+.right a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    box-shadow: 1px 3px 10px 0px rgba(255, 255, 255, 0.4);
+    width: fit-content;
+    padding: 0.4rem;
+}
+
+/* Section FORM Conviertete en orador */
+.convierteteEnOrador {
+    height: 60vh;
+    margin-top: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Calibri', sans-serif;
+}
+
+.convierteteEnOrador > p {
+    text-align: center;
+    color: rgb(74, 80, 88);
+}
+
+.tituloForm {
+    text-align: center;
+    color: rgb(34, 37, 41);
+}
+
+.tituloForm span {
+    color: black;
+    font-size: 0.7rem;
+    font-weight: 400;
+}
+
+.oradoresForm {
+    /*background-color: aquamarine;*/
+    width: 90%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.oradoresForm > input {
+    width: 100%;
+    color: white;
+    font-size: 1.2rem;
+    background-color: rgb(150, 201, 62);
+    border: none;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+.oradoresForm textarea {
+    width: 100%;
+    border: none;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+.oradoresForm p {
+    color: rgb(151, 161, 175);
+    font-size: 0.9rem;
+}
+
+.inputsContainer {
+    display: flex;
+    justify-content: space-between;
+    /*background-color: blue;*/
+}
+
+.inputsContainer > input {
+    width: 47%;
+    border: none;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 4px;
+    padding: 0.4rem;
+}
+
+/* FOOTER */
+.footer{
+    background-color: rgb(30, 70, 95);
+    height: 20vh;
+    width: 100vw;
+}
+
+.footerLinks {
+    background-color: aquamarine;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footerLinks > a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
