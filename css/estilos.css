@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&family=Nunito:wght@200;300;400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Roboto:wght@100;400;500;700;900&display=swap');
 
 *{
@@ -7,8 +8,7 @@
 }
 
 .header {
-    background-color: aqua;
-    height: 80vh;
+    height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.73), rgba(22, 22, 22, 0.315) ), url("../assets/img/ba1.jpg");
     background-size: cover;
@@ -19,13 +19,12 @@
 .headerNav {
     /*background-color: blue;*/
     display: flex;
-    height: 25%;
+    height: 20%;
     width: 100%;
 }
 
 .navegacion {
     /*background-color: aquamarine;*/
-    /*flex-grow: 1;*/
     width: 70%;
 }
 
@@ -41,17 +40,26 @@
 }
 
 .listaNav li {
-    width: 35%;
     list-style: none;
-    font-size: 0.5rem;
-    box-shadow: inset 0 -7px 10px -10px #ccb8b8;
-    padding: 0.3rem;
+    width: 43%;
+    box-shadow: inset 0 -7px 10px -10px #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 5px;
     text-align: center;
+    padding: 0.3rem;
 }
 
 .linkNav {
+    font-size: 0.6rem;
     text-decoration: none;
-    color: white;
+    font-family: 'Nunito', sans-serif;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.comprarTickets {
+    color: rgb(41, 167, 67);
+    font-size: 0.8rem;
+    font-weight: 700;
 }
 
 .contenedorLogo h2{
@@ -59,6 +67,7 @@
 }
 
 .contenedorLogo {
+    /*background-color: rgb(85, 170, 36);*/
     width: 30%;
     display: flex;
     justify-content: center;
@@ -73,6 +82,8 @@
     width: 100%;
 }
 
+
+/* Section Conferencia Bs AS */
 .laConferencia {
     height: 85%;
     display: flex;
@@ -84,6 +95,7 @@
 .contenidoConferencia {
     width: 90%;
     height: 42%;
+    margin-top: -10rem;
 }
 
 .contenidoConferencia h1 {
@@ -104,7 +116,7 @@
 
 .buttonsContainer {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
 }
 
 .buttonOrador {
