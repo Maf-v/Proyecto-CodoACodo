@@ -11,7 +11,7 @@
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.73), rgba(22, 22, 22, 0.315) ), url("../assets/img/ba1.jpg");
-    background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.822), rgba(0, 0, 0, 0.5) ), url("../assets/img/ba1.jpg");
+    background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.705), rgba(0, 0, 0, 0.329) ), url("../assets/img/ba1.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
