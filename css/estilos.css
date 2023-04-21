@@ -57,7 +57,7 @@
 }
 
 .comprarTickets {
-    color: rgba(41, 167, 66, 0.808);
+    color: rgba(41, 167, 66, 0.801);
     font-size: 0.8rem;
     font-weight: 600;
 }
@@ -106,7 +106,6 @@
 }
 
 .parrafoConferencia{
-    background-color: blueviolet;
     color: white;
     text-align: right;
     font-size: 0.7rem;
@@ -140,9 +139,4 @@
 }
 
 
-
-.prueba {
-    width: 100vw;
-    height: 100vh;
-    background-color: aqua;
-}
+/* Section Oradores */
