@@ -302,8 +302,7 @@ h1,h2,h3,h4,h5,h6{
 .convierteteEnOrador > p {
     text-align: center;
     color: rgb(74, 80, 88);
-    font-size: 0.8rem;
-    width: 60%;
+    width: 90%;
 }
 
 .convierteteEnOrador > p > span {
