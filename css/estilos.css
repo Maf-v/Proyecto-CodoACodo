@@ -73,7 +73,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .comprarTickets {
-    color: rgb(41, 167, 66);
+    color: rgba(41, 167, 66, 0.815);
     text-shadow: 1px 1px 3px rgba(55, 153, 16, 0.74);
     font-size: 0.9rem;
     /*font-size: 0.7rem;
@@ -302,6 +302,8 @@ h1,h2,h3,h4,h5,h6{
 .convierteteEnOrador > p {
     text-align: center;
     color: rgb(74, 80, 88);
+    font-size: 0.8rem;
+    width: 70%;
 }
 
 .convierteteEnOrador > p > span {
@@ -441,7 +443,7 @@ h1,h2,h3,h4,h5,h6{
     .linkNav{
         color: rgb(189, 196, 199);
         font-weight: 300;
-        font-size: 0.8rem;
+        text-shadow: none;
     }
     
     .listaNav {
@@ -646,6 +648,7 @@ h1,h2,h3,h4,h5,h6{
         color: rgb(189, 196, 199);
         font-weight: 500;
         font-size: 1rem;
+        text-shadow: none;
     }
     
     .listaNav {
@@ -841,14 +844,13 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .listaNav li {
-        border: none;
-        box-shadow: none;
         width: auto;
     }
 
     .linkNav{
         color: rgb(189, 196, 199);
         font-size: 1rem;
+        text-shadow: none;
     }
     
     .listaNav {
