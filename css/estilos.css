@@ -24,6 +24,7 @@ h1,h2,h3,h4,h5,h6{
     height: 100vh;
     width: 100vw;
     background-image: linear-gradient(to bottom, rgba(58, 8, 45, 0.705), rgba(0, 0, 0, 0.329) ), url("../assets/img/ba1-mobile.jpg");
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.795), rgba(0, 0, 0, 0.329) ), url("../assets/img/ba1-mobile.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,29 +51,33 @@ h1,h2,h3,h4,h5,h6{
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .listaNav li {
     list-style: none;
-    width: 43%;
-    box-shadow: inset 0 -7px 10px -10px #ffffff;
+    width: 45%;
+    /*box-shadow: inset 0 -7px 10px -10px #ffffff;
     border-bottom: 1px solid rgba(255, 255, 255, 0.493);
     border-radius: 5px;
+    padding: 0.3rem;*/
     text-align: center;
-    padding: 0.3rem;
 }
 
 .linkNav {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(250, 248, 249, 0.568);
     font-family: 'Nunito', sans-serif;
     color: rgba(255, 255, 255, 0.808);
 }
 
 .comprarTickets {
-    color: rgba(41, 167, 66, 0.801);
-    font-size: 0.7rem;
-    font-weight: 600;
+    color: rgb(41, 167, 66);
+    text-shadow: 1px 1px 3px rgba(55, 153, 16, 0.74);
+    font-size: 0.9rem;
+    /*font-size: 0.7rem;
+    font-weight: 600;*/
 }
 
 .contenedorLogo h2{
@@ -395,7 +400,6 @@ h1,h2,h3,h4,h5,h6{
 
 /* media query para tablet */
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-
     /* Header */
     .header {
         background-image: none;
@@ -408,7 +412,6 @@ h1,h2,h3,h4,h5,h6{
 
     .contenedorLogo {
         justify-content: flex-end;
-        align-items: center;
         width: 20%;
     }
 
@@ -421,7 +424,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .contenedorLogo a {
-        width: 20%;
+        width: 30%;
         margin-right: 0.7rem;
     }
 
@@ -600,7 +603,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1399px) {
-    
     /* Header */
     .header {
         background-image: none;
@@ -612,9 +614,9 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .contenedorLogo {
-        justify-content: flex-end;
+        justify-content: center;
         align-items: center;
-        width: 20%;
+        width: 30%;
     }
 
     .contenedorLogo h2{
@@ -631,7 +633,7 @@ h1,h2,h3,h4,h5,h6{
     }
 
     .navegacion {
-        width: 80%;
+        width: 70%;
     }
 
     .listaNav li {
@@ -642,12 +644,215 @@ h1,h2,h3,h4,h5,h6{
 
     .linkNav{
         color: rgb(189, 196, 199);
-        font-weight: 300;
-        font-size: 0.8rem;
+        font-weight: 500;
+        font-size: 1rem;
     }
     
     .listaNav {
-        padding-right: 5%;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+
+    .conferenciaNav {
+        color: rgba(255, 255, 255, 0.911);
+        font-weight: 600;
+    }
+
+    .comprarTickets {
+        color: rgb(41, 167, 67);
+    }
+
+    /* Section Conferencia Bs As */
+    .laConferencia{
+        height: 85%;
+        position:relative;
+        background-image: url("../assets/img/ba1.jpg");
+        background-size: cover;
+        background-position: initial;
+        background-repeat: no-repeat;
+        z-index:1;
+        padding-right: 3rem;
+    }
+
+    .efectoOscuro{
+        /* Para aplicar efecto opaco en el fondo */
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.58);
+        z-index: 2;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+
+    .contenidoConferencia {
+        z-index: 3;
+        width: 55%;
+        padding-top: 3rem;
+    }
+
+    .contenidoConferencia h1 {
+        color: rgb(248, 248, 248);
+    }
+    
+    .parrafoConferencia{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 1rem;
+    }
+
+    .buttonOrador {
+        padding: 0.5rem 0.9rem;
+        margin-right: 0.7rem;
+        font-size: 0.8rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .buttonTicket {
+        font-size: 0.8rem;
+        border-radius: 5px;
+        padding: 0.5rem 0.9rem;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    /* Section Oradores */
+    .sectionOradores{
+        margin-bottom: 2rem;
+    }
+
+    .padreCards{
+        flex-direction: row;
+        height: 100%;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        padding-bottom: 3rem;
+        padding-top: 1rem;
+    }
+    
+    .card{
+        height:95%;
+        width: 30%;
+        margin-left:15px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card img{
+        height: 60%;
+        width: 100%;
+        margin-bottom: 0.7rem;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+
+    .cardBody{
+        width: 100%;
+    }
+
+    .topic {
+        font-size: 0.8rem;
+    }
+
+    .cardBody h2 {
+        margin-bottom: 0.1rem;
+    }
+
+    .cardBody p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    /* Section con imagen y Bs - Octubre */
+    .lugarFecha{
+        height: 60vh;
+        display: flex;
+    }
+
+    .left{
+        width: 50%;
+        height: 100%;
+        border-right:1px solid white;
+        background-image: url("../assets/img/honolulu.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right{
+        width: 50%;
+    }
+
+    /* Section FORM Conviertete en orador */
+    .oradoresForm {
+        width: 60%;
+    }
+
+    /* FOOTER */
+    .footer{
+        height: 15vh;
+    }
+
+    .footerLinks {
+        padding: 0rem;
+        align-items: center;
+    }
+
+    .footerLinks > a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 7vw;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    /* Header */
+    .header {
+        background-image: none;
+    }
+
+    .headerNav {
+        background-color: rgb(53, 58, 64);
+        height: 15%;
+    }
+
+    .contenedorLogo {
+        justify-content: center;
+        align-items: center;
+        width: 30%;
+    }
+
+    .contenedorLogo h2{
+        display:flex;
+        font-family: 'Nunito', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        color: white;
+    }
+
+    .contenedorLogo a {
+        width: 20%;
+        margin-right: 0.7rem;
+    }
+
+    .navegacion {
+        width: 70%;
+    }
+
+    .listaNav li {
+        border: none;
+        box-shadow: none;
+        width: auto;
+    }
+
+    .linkNav{
+        color: rgb(189, 196, 199);
+        font-size: 1rem;
+    }
+    
+    .listaNav {
+        padding-right: 10%;
         padding-left: 10%;
     }
 
