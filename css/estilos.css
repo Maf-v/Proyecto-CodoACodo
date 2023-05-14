@@ -416,7 +416,7 @@ h1,h2,h3,h4,h5,h6{
     /* Header */
     .header {
         background-image: none;
-        min-height: 600px;
+        min-height: 500px;
     }
 
     .headerNav {
@@ -528,8 +528,9 @@ h1,h2,h3,h4,h5,h6{
     /* Section Oradores */
     .sectionOradores{
         margin-bottom: 2rem;
-        min-height: 700px;
+        min-height: 670px;
     }
+
     .padreCards{
         flex-direction: row;
         height: 100%;
@@ -541,7 +542,7 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .card{
-        height: 95%;
+        height: 100%;
         width: 30%;
         display: flex;
         flex-direction: column;
@@ -630,7 +631,7 @@ h1,h2,h3,h4,h5,h6{
     /* Header */
     .header {
         background-image: none;
-        min-height: 720px;
+        min-height: 550px;
     }
 
     .headerNav {
@@ -745,7 +746,7 @@ h1,h2,h3,h4,h5,h6{
     .sectionOradores{
         margin-bottom: 2rem;
         height: 100vh;
-        min-height: 720px;
+        min-height: 610px;
     }
 
     .padreCards{
@@ -759,7 +760,7 @@ h1,h2,h3,h4,h5,h6{
     }
     
     .card{
-        height:95%;
+        height: 100%;
         width: 30%;
         margin-left:15px;
         display: flex;
@@ -848,7 +849,7 @@ h1,h2,h3,h4,h5,h6{
     /* Header */
     .header {
         background-image: none;
-        min-height: 768px;
+        min-height: 600px;
     }
 
     .headerNav {
@@ -959,12 +960,12 @@ h1,h2,h3,h4,h5,h6{
     /* Section Oradores */
     .sectionOradores{
         margin-bottom: 2rem;
-        min-height: 768px;
+        min-height: 600px;
     }
 
     .padreCards{
         flex-direction: row;
-        height: 100%;
+        height: 97%;
         width: 75%;
         margin: 0 auto;
         text-align: center;
